@@ -1,6 +1,6 @@
 ## Examen de datavizualisation
 
-#Taux d'homicides dans le monde en 2018
+# Taux d'homicides dans le monde en 2018
 
 Voici une carte montrant les zones répertoriés dans lequelles il y'a le plus de meurtres dans le monde. On peut voir en survolant la carte que plusieurs pays d'Amérique du Sud sont les mieux dans lesquels le taux d'homicides intentionnels étaient le plus elevé en 2018. 
 
