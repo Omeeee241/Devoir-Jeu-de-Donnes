@@ -34,6 +34,160 @@ Aux vues de ce graphique, il est indéniable que Paris était la ville la plus t
   
 Une infraction rest une infraction mais on peut voir tout de meme que cela reste minime comparé à certains pays dans lesquels ce genre de comportements est presqu'une habitude. 
 
+  Maintenant nous allons voir le cas des Etats unis 
   
+  Nous avons choisi le jeu de données suivant 
+  <iframe src="https://data.opendatasoft.com/explore/embed/dataset/fbi-crime-data-test@cityofsalinas/table/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+  Que nous avons nettoyer à l'aide d'OpenRefine dans le but de ressortir les informations qui nous interessaient réèllement 
+  [
+  {
+    "op": "core/column-removal",
+    "columnName": "Population1",
+    "description": "Remove column Population1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Rape\n(revised \ndefinition)3",
+    "description": "Remove column Rape\n(revised \ndefinition)3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Rape\n(revised \ndefinition) \nrate3",
+    "description": "Remove column Rape\n(revised \ndefinition) \nrate3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Violent \ncrime \nrate",
+    "description": "Remove column Violent \ncrime \nrate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Murder and \nnonnegligent \nmanslaughter \nrate",
+    "description": "Remove column Murder and \nnonnegligent \nmanslaughter \nrate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Rape\n(legacy \ndefinition) \nrate4",
+    "description": "Remove column Rape\n(legacy \ndefinition) \nrate4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Robbery \nrate",
+    "description": "Remove column Robbery \nrate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Aggravated \nassault rate",
+    "description": "Remove column Aggravated \nassault rate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Property \ncrime \nrate",
+    "description": "Remove column Property \ncrime \nrate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Burglary \nrate",
+    "description": "Remove column Burglary \nrate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Motor \nvehicle \ntheft \nrate",
+    "description": "Remove column Motor \nvehicle \ntheft \nrate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Larceny-\ntheft rate",
+    "description": "Remove column Larceny-\ntheft rate"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Violent\ncrime2",
+    "newColumnName": "Crimes violents",
+    "description": "Rename column Violent\ncrime2 to Crimes violents"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Lignes étoilées",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Year",
+    "newColumnName": "Années",
+    "description": "Rename column Year to Années"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Murder and\nnonnegligent \nmanslaughter",
+    "newColumnName": "Meurtres et homicides involontaires ",
+    "description": "Rename column Murder and\nnonnegligent \nmanslaughter to Meurtres et homicides involontaires "
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Rape\n(legacy \ndefinition)4",
+    "newColumnName": "Viols",
+    "description": "Rename column Rape\n(legacy \ndefinition)4 to Viols"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Robbery",
+    "newColumnName": "Vols",
+    "description": "Rename column Robbery to Vols"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Aggravated \nassault",
+    "newColumnName": "Aggressions aggravées",
+    "description": "Rename column Aggravated \nassault to Aggressions aggravées"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Property \ncrime",
+    "newColumnName": "Crimes contre des biens ",
+    "description": "Rename column Property \ncrime to Crimes contre des biens "
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Burglary",
+    "newColumnName": "Cambriolages",
+    "description": "Rename column Burglary to Cambriolages"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Larceny-\ntheft",
+    "newColumnName": "Larcins-vols",
+    "description": "Rename column Larceny-\ntheft to Larcins-vols"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Motor \nvehicle \ntheft",
+    "newColumnName": "Vols de véhicules à moteur",
+    "description": "Rename column Motor \nvehicle \ntheft to Vols de véhicules à moteur"
+  }
+]
   
   <iframe title="Nombres de délits et crimes aux Etats-Unis entre 2000 &amp;amp; 2018" aria-label="Anneau de choix" id="datawrapper-chart-B0jfw" src="https://datawrapper.dwcdn.net/B0jfw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="631"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
