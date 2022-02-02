@@ -46,7 +46,7 @@ Maintenant nous allons voir le cas des Etats unis à l'aide du graphique suivant
   
   
 # Conclusion 
-  Pour conclure, on peut voir qu'entre la France et les Etats-Unis il y'a une grand pas. L'approche pour visualiser les données n'est pas la même pour les deux jeux car pour l'un, les infractions sont comptabilisées par communes et pour l'autre elles sont comptabilisées nationalement c'est à dire de manière globale mais même en additionnant les données de chaques communes on atteindrait des taux supérieurs ou égaux à ceux des Etats-Unis. On peut aussi malheureusement constater que la délinquance n'est pas un fait qui est prêt de s'arreter. 
+  Pour conclure, on peut voir qu'entre la France et les Etats-Unis il y'a un grand pas. L'approche pour visualiser les données n'est pas la même pour les deux jeux car pour l'un, les infractions sont comptabilisées par communes et pour l'autre elles sont comptabilisées nationalement c'est à dire de manière globale mais même en additionnant les données de chaques communes françaises, on atteindrait pas des taux supérieurs ou égaux à ceux des Etats-Unis. On peut aussi malheureusement constater que la délinquance n'est pas un fait qui est prêt de s'arreter. 
   
   
   
