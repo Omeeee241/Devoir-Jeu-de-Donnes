@@ -35,8 +35,8 @@ C'est pourquoi nous avons choisi de présenter également ce graphique qui perme
 
 <iframe title="Délits et crimes par types dans les communes françaises" aria-label="Barres empilées" id="datawrapper-chart-bSB9a" src="https://datawrapper.dwcdn.net/bSB9a/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2634"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-Aux vues de ce graphique, il est indéniable que Paris était la ville la plus touchée par le Vols sans violence contre des personnes donc tres certaines de pickpocket. Pour une ville touristique de cette envergure cela s'explique. Dans les Bouches du Rhone, les cambriolages et vols de voitures sont beaucoup plus nombreux qu'ailleurs. 
-Une infraction reste une infraction mais on peut voir tout de même que cela reste minime comparé à certains pays dans lesquels ce genre de comportements est presqu'une habitude. Aussi par raaport au nombre d'habitant cela rest une fois de plus minime. 
+Aux vues de ce graphique, il est indéniable que Paris était la ville la plus touchée par le Vols sans violence contre des personnes donc très probablement des pickpockets. Pour une ville touristique de cette envergure cela s'explique. Dans les Bouches du Rhone, les cambriolages et vols de voitures sont beaucoup plus nombreux qu'ailleurs. On peut mieux voir quels délits gangrainent quels départements.
+Une infraction reste une infraction mais on peut souligner que cela reste minime comparé à certains pays dans lesquels ce genre de comportements est presqu'une habitude. Aussi par rapport au nombre d'habitants cela reste une fois de plus minime. 
 
 Maintenant nous allons voir le cas des Etats unis à l'aide du graphique suivant :  
   
