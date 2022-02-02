@@ -15,12 +15,12 @@ Les crimes et délits sont des fléaux de société. Chaque jour, des infraction
 
 # Présentation des données 
 Pour pouvoir mesurer plus ou moins ce niveau de violence, nous avons choisi les jeux de données qui suivent : 
-#Données France
+# Données France
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/crimes-et-delits-enregistres-par-les-forces-de-securite-en-2016-par-departement@public/table/?location=4,43.96119,3.33984&basemap=jawg.streets&static=false&datasetcard=false" width="600" height="450" frameborder="0"></iframe>
 
 Ces informations fournies par le Service statistique ministériel de la sécurité intérieure, comptabilise le nombre d'infractions commises sur les territoires des différentes communes françaises. On y retrouve également l'effectif de la population ainsi que le nombre de logements. 
 
-#Données USA
+# Données USA
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/fbi-crime-data-test@cityofsalinas/table/?&static=false&datasetcard=false" width="600" height="450" frameborder="0"></iframe>
 
   Ces informations proviennent du bureau fédéral d'enquête du FBI. Le jeu de données concernant les Etats-Unis a été nettoyé à l'aide d'OpenRefine dans le but de ressortir les informations qui nous interessaient vraiment pour la visualisation (les modifications se trouvent en fin de page).
