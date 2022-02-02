@@ -10,22 +10,24 @@
 
 
 # Introduction 
-Les crimes et délits sont des fléaux de société. Chaque jour, des infractions, plus dangereuses les unes que les autres sont commises dans le monde. Ici, nous allons voir à l'aide de deux jeux de données, des infractions de plusieurs types commis et recensés en France durant l'année 2016 et aux Etats-Unis entre 2000 et 2018. Même si ces informations ne répertorient pas l'ensemble des crimes qui peuvent exister, ils nous montreront tout de même, approximativement, puisque certains délits échappent à la police, ce qu'il en est du taux de violence concernant ce genre de délits dans ces deux pays.  
+Les crimes et délits sont des fléaux de société. Chaque jour, des infractions, plus dangereuses les unes que les autres sont commises dans le monde. Ici, nous allons voir à l'aide de deux jeux de données, des infractions de plusieurs types commises et recensées en France durant l'année 2016 et aux Etats-Unis entre les années 2000 et 2018. Même si ces informations ne répertorient pas avec exactitude l'ensemble des crimes qui peuvent exister, ils nous montreront tout de même, approximativement, puisque certains délits échappent à la police, ce qu'il en est du taux de violence concernant ce genre de délits dans ces deux pays.  
 
 
 # Présentation des données 
 Pour pouvoir mesurer plus ou moins ce niveau de violence, nous avons choisi les jeux de données qui suivent : 
+#Données France
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/crimes-et-delits-enregistres-par-les-forces-de-securite-en-2016-par-departement@public/table/?location=4,43.96119,3.33984&basemap=jawg.streets&static=false&datasetcard=false" width="600" height="450" frameborder="0"></iframe>
 
 Ces informations fournies par le Service statistique ministériel de la sécurité intérieure, comptabilise le nombre d'infractions commises sur les territoires des différentes communes françaises. On y retrouve également l'effectif de la population ainsi que le nombre de logements. 
 
+#Données USA
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/fbi-crime-data-test@cityofsalinas/table/?&static=false&datasetcard=false" width="600" height="450" frameborder="0"></iframe>
 
-  Ces informations proviennent du bureau fédéral d'enquête du FBI. Le jeu de données concernant les Etats-Unis a été nettoyé à l'aide d'OpenRefine dans le but de ressortir les informations qui nous interessaient vraiment (les modifications se trouvent en fin de page)
+  Ces informations proviennent du bureau fédéral d'enquête du FBI. Le jeu de données concernant les Etats-Unis a été nettoyé à l'aide d'OpenRefine dans le but de ressortir les informations qui nous interessaient vraiment pour la visualisation (les modifications se trouvent en fin de page).
 
 # Visualisations et analyse  
 
-Cette carte interactive permet de visualiser en cliquant sur un departement la totalité des informations du jeu de données, elle est pratique pour cnsulter les données tout en visualisant bien où se situe tel ou tel département (nord, sud, est, ouest), mais ne permet pas de voir concrètement où le niveau de violence est plus élevé en fonction des différents délits.  
+Tout d'abord pour la France, nous avons cette carte interactive qui permet de visualiser en cliquant sur un département la totalité des informations du jeu de données, elle est pratique pour consulter les données tout en visualisant bien où se situe tel ou tel département (nord, sud, est, ouest), mais ne permet pas de voir concrètement où le niveau de violence est plus élevé en fonction des différents délits.  
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/carte0/?&static=false&scrollWheelZoom=false"></iframe>
 
