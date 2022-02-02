@@ -42,7 +42,7 @@ Maintenant nous allons voir le cas des Etats unis à l'aide du graphique suivant
   
  <iframe title="Nombres de délits et crimes aux Etats-Unis entre 2000 &amp;amp; 2018" aria-label="Anneau de choix" id="datawrapper-chart-B0jfw" src="https://datawrapper.dwcdn.net/B0jfw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="631"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
   
- Les Etats-Unis comptent une population bien plus élévée que celle de la France et l'on remarque que les crimes contre des biens sont les plus nombreux sur ce territoire. En 18 ans, tous les délits concernés sont resté presque constants, ils ont certes diminuer mais de peu en général, aussi 
+ Les Etats-Unis comptent une population bien plus élévée que celle de la France et l'on remarque que les crimes contre des biens sont les plus nombreux sur ce territoire. En 18 ans, tous les délits concernés sont restés presque constants, ils ont certes diminué mais de peu en général. Les Etats-Unis sont en effet un pays où la criminalité est tres importante en général. Ces chiffres restent quand même énormes.
   
   
 # Conclusion 
