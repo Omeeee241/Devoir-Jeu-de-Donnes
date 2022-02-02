@@ -19,9 +19,9 @@ Pour pouvoir mesurer plus ou moins ce niveau de violence, nous avons choisi les 
 
 Ces informations fournies par le Service statistique ministériel de la sécurité intérieure, comptabilise le nombre d'infractions commises sur les territoires des différentes communes françaises. On y retrouve également l'effectif de la population ainsi que le nombre de logements. 
 
-<iframe src="https://data.opendatasoft.com/explore/embed/dataset/fbi-crime-data-test@cityofsalinas/table/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+<iframe src="https://data.opendatasoft.com/explore/embed/dataset/fbi-crime-data-test@cityofsalinas/table/?&static=false&datasetcard=false" width="600" height="450" frameborder="0"></iframe>
 
-  Cest information proviennent du bureau fédéral d'enquête du FBI. Le jeu de données concernant les Etats-Unis a été nettoyé à l'aide d'OpenRefine dans le but de ressortir les informations qui nous interessaient vraiment (les modifications se trouvent en fin de page)
+  Ces informations proviennent du bureau fédéral d'enquête du FBI. Le jeu de données concernant les Etats-Unis a été nettoyé à l'aide d'OpenRefine dans le but de ressortir les informations qui nous interessaient vraiment (les modifications se trouvent en fin de page)
 
 # Visualisations et analyse  
 
