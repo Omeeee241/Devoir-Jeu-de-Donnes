@@ -1,6 +1,6 @@
 ## Examen de datavizualisation
 
-# Crimes et délits enregistrés en 2016 dans l'ensemble des communes françsaises
+# Crimes et délits enregistrés en entre 2014 & 2016 dans l'ensemble des communes françsaises
 
 # Sommaire
 1. Introduction 
