@@ -33,3 +33,7 @@ C'est pourquoi nous avons choisi de présenter également ce graphique qui perme
 Aux vues de ce graphique, il est indéniable que Paris était la ville la plus touchée par le Vols sans violence contre des personnes donc tres certaines de pickpocket. Pour une ville touristique de cette envergure cela s'explique. Dans les Bouches du Rhone, les cambriolages et vols de voitures sont beaucoup plus nombreux qu'ailleurs..
   
 Une infraction rest une infraction mais on peut voir tout de meme que cela reste minime comparé à certains pays dans lesquels ce genre de comportements est presqu'une habitude. 
+
+  
+  
+  <iframe title="Nombres de délits et crimes aux Etats-Unis entre 2000 &amp;amp; 2018" aria-label="Anneau de choix" id="datawrapper-chart-B0jfw" src="https://datawrapper.dwcdn.net/B0jfw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="631"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
